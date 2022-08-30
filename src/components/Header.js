@@ -14,9 +14,9 @@ const Header = () => {
 				<FormControl style={{ width: 500 }} placeholder="Search a gift"	className="m-auto" />
 			</Navbar.Text>
 			<Nav>
-				<Dropdown alignRight>
+				<Dropdown>
 					<Dropdown.Toggle variant="success">
-						<FaShoppingCart color="white" font-size="25px" />
+						<FaShoppingCart color="white"  />
 						
 						<Badge>{8}</Badge>
 					</Dropdown.Toggle>
