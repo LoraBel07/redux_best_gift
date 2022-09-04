@@ -1,10 +1,8 @@
 
 const Gifts = () => {
 	return(
-	<div>
-		<h1>Gifts</h1>
-	</div>
+	<div>Gifts</div>
 	)
-};
+}
 
 export default Gifts;
