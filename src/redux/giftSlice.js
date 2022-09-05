@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit';
 export const giftSlice = createSlice({
 	name: 'gift',
 	initialState: {
-		selectedCategory: "All"
+		selectedCategory: "All",
 	},
 	reducers: {
 		filterCategory: (state, action) => {

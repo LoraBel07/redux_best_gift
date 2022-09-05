@@ -23,8 +23,9 @@ body {
   flex-direction: column;
   margin-top: 15px; 
   margin-bottom: 15px;
-  margin-left: 20px; 
-  margin-right: 150px;
+  margin-left: 15px; 
+  margin-right: 180px;
+  width: 82%;
 }
 .header {
   display: flex;
@@ -46,7 +47,9 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  
 }
+
 .categoryButton {
   flex-wrap: wrap;
   margin:10px;
@@ -89,7 +92,7 @@ img {
   height: auto;
 }
 .categoryButtonSelected {
-  background-color: #a1a1f6;
+  background-color: #b7b7f8;
   cursor: pointer;
   margin:10px;
   padding:10px;
@@ -97,7 +100,7 @@ img {
 .categoryButtonSelected:hover {
   background-color: #efeff8;
   cursor: pointer;
-  box-shadow: 10px 10px 20px 0px rgba(2, 23, 126, 0.613);
+  box-shadow: 10px 10px 20px 0px rgba(2, 23, 126, 0.502);
 }
 .categoryButton:hover {
   background-color: #efeff8;
