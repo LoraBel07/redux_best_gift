@@ -15,7 +15,7 @@ body {
   background-size: 30vh;
 }
 .block {
-  background-color: #ceceeb;
+  background-color: #d8d8ef;
   box-shadow: 10px 10px 20px 0px rgba(2, 23, 126, 0.613);
   padding: 13px;
   display: flex;
@@ -38,12 +38,19 @@ body {
 .row {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
+
 .gifts {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+.categoryButton {
+  flex-wrap: wrap;
+  margin:10px;
+  padding:10px;
 }
 
 code {
@@ -60,7 +67,7 @@ code {
 
 img {
   width: 250px;
-  height: 190px;
+  height: 180px;
   margin: 7px;
 }
 .cartBox {
@@ -69,7 +76,7 @@ img {
   top: 3rem; */
   top: 5px;
   right: 5px;
-  background-color: #ceceeb;
+  background-color: #d8d8ef;
   box-shadow: 10px 10px 20px 0px rgba(2, 23, 126, 0.613);
   padding: 13px;
   display: flex;
@@ -81,4 +88,21 @@ img {
   width: 170px;
   height: auto;
 }
+.categoryButtonSelected {
+  background-color: #a1a1f6;
+  cursor: pointer;
+  margin:10px;
+  padding:10px;
+}
+.categoryButtonSelected:hover {
+  background-color: #efeff8;
+  cursor: pointer;
+  box-shadow: 10px 10px 20px 0px rgba(2, 23, 126, 0.613);
+}
+.categoryButton:hover {
+  background-color: #efeff8;
+  cursor: pointer;
+  box-shadow: 10px 10px 20px 0px rgba(2, 23, 126, 0.613);
+}
+
 
