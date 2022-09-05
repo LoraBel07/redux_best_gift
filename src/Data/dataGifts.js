@@ -1,22 +1,22 @@
-const giftsData = [
+const dataGifts = [
 	{
 		"id": 1,
 		"name": "Cake",
-		"category": "yummy",
+		"category": "Yummy",
 		"price": 30.99,
 		"imgUrl": "/imgs/cake.jpg"
 	},
 	{
 		"id": 2,
 		"name": "Flowers",
-		"category": "flowers",
+		"category": "Flowers",
 		"price": 19.99,
 		"imgUrl": "/imgs/flowers.jpg"
 	},
 	{
 		"id": 3,
 		"name": "Diamond",
-		"category": "jewelry",
+		"category": "Jewelry",
 		"price": 8999,
 		"imgUrl": "/imgs/diamond.jpg"
 		
@@ -24,7 +24,7 @@ const giftsData = [
 	{
 		"id": 4,
 		"name": "Book",
-		"category": "staitionery",
+		"category": "Staitionery",
 		"price": 10.99,
 		"imgUrl": "/imgs/book.jpg"
 		
@@ -32,30 +32,32 @@ const giftsData = [
 	{
 		"id": 5,
 		"name": "Berries",
-		"category": "yummy",
+		"category": "Yummy",
 		"price": 4.05,
 		"imgUrl": "/imgs/berries.jpg"
 	},
 	{
 		"id": 6,
 		"name": "Laptop",
-		"category": "devices",
+		"category": "Devices",
 		"price": 1599,
 		"imgUrl": "/imgs/laptop.jpg"
 	},
 	{
 		"id": 7,
 		"name": "Bangles",
-		"category": "jewelry",
+		"category": "Jewelry",
 		"price": 99,
 		"imgUrl": "/imgs/bangle.jpg"
 	},
 	{
 		"id": 8,
 		"name": "Gold bracelet",
-		"category": "jewelry",
+		"category": "Jewelry",
 		"price": 899,
 		"imgUrl": "/imgs/gold.jpg"
 	}
 
 ]
+
+export default dataGifts;

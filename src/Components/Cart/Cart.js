@@ -1,7 +1,12 @@
+import imgCart from './cart.png';
 
 const Cart = () => {
 	return(
-	<div>Cart</div>
+	<div className='cartBox'>
+		
+		<img src={ imgCart } className="cart" alt="cart"/>
+		
+	</div>
 	)
 }
 

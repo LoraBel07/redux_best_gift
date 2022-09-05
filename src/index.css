@@ -17,7 +17,33 @@ body {
 .block {
   background-color: #ceceeb;
   box-shadow: 10px 10px 20px 0px rgba(2, 23, 126, 0.613);
-  padding: 20px;
+  padding: 13px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 15px; 
+  margin-bottom: 15px;
+  margin-left: 20px; 
+  margin-right: 150px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.question {
+  width: 70%;
+  justify-items: center;
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+.gifts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 code {
@@ -29,5 +55,30 @@ code {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  text-align: center;
+  /* text-align: center; */
 }
+
+img {
+  width: 250px;
+  height: 190px;
+  margin: 7px;
+}
+.cartBox {
+  position: fixed;
+  /* left: 70rem;
+  top: 3rem; */
+  top: 5px;
+  right: 5px;
+  background-color: #ceceeb;
+  box-shadow: 10px 10px 20px 0px rgba(2, 23, 126, 0.613);
+  padding: 13px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 12px;  
+}
+.cart {
+  width: 170px;
+  height: auto;
+}
+

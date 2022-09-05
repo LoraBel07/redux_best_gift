@@ -8,9 +8,12 @@ function App() {
     <div className='App'>
       <div className='block'>
         <Filters/>
-        <Gifts/>
+        <div>
+          <Gifts/>
+        </div>
+        
       </div>
-      <div className='block'>
+      <div className='cartBox'>
         <Cart/>
       </div>
       
