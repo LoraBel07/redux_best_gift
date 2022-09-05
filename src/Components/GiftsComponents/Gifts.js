@@ -1,7 +1,10 @@
+import Gift from "./Gift";
 
 const Gifts = () => {
 	return(
-	<div>Gifts</div>
+	<div>
+		{ dataGifts.map(gift => <Gift gift={gift}/>)}
+	</div>
 	)
 }
 
