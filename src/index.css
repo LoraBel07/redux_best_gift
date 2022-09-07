@@ -24,7 +24,7 @@ body {
   margin-top: 15px; 
   margin-bottom: 15px;
   margin-left: 15px; 
-  margin-right: 180px;
+  margin-right: 260px;
   width: 82%;
 }
 .header {
@@ -77,7 +77,7 @@ img {
   position: fixed;
   /* left: 70rem;
   top: 3rem; */
-  top: 5px;
+  top: 3.5px;
   right: 5px;
   background-color: #d8d8ef;
   box-shadow: 10px 10px 20px 0px rgba(2, 23, 126, 0.613);
@@ -88,7 +88,7 @@ img {
   margin: 12px;  
 }
 .cart {
-  width: 170px;
+  width: 190px;
   height: auto;
 }
 .categoryButtonSelected {
@@ -107,5 +107,20 @@ img {
   cursor: pointer;
   box-shadow: 10px 10px 20px 0px rgba(2, 23, 126, 0.613);
 }
-
+.buy {
+  width: 40px;
+  height: 35px;
+  margin: -10px;
+}
+.buyBtn {
+  width: 58px;
+  height: 47px;
+  border: 1px solid #b7b7f8;
+  border-radius: 10%;
+  margin: 2px;
+}
+.buyBtn:hover {
+  cursor: pointer;
+  box-shadow: 10px 10px 20px 0px rgba(2, 23, 126, 0.613);
+}
 
