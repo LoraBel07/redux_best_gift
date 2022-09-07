@@ -3,14 +3,14 @@ const dataGifts = [
 		id: 1,
 		name: "Cake",
 		category: "Yummy",
-		price: 30.99,
+		price: 30,
 		imgUrl: "/imgs/cake.jpg"
 	},
 	{
 		id: 2,
 		name: "Flowers",
 		category: "Flowers",
-		price: 19.99,
+		price: 19,
 		imgUrl: "/imgs/flowers.jpg"
 	},
 	{
@@ -25,7 +25,7 @@ const dataGifts = [
 		id: 4,
 		name: "Book",
 		category: "Staitionery",
-		price: 10.99,
+		price: 12,
 		imgUrl: "/imgs/book.jpg"
 		
 	},
@@ -33,7 +33,7 @@ const dataGifts = [
 		id: 5,
 		name: "Berries",
 		category: "Yummy",
-		price: 4.05,
+		price: 3,
 		imgUrl: "/imgs/berries.jpg"
 	},
 	{
@@ -52,7 +52,7 @@ const dataGifts = [
 	},
 	{
 		id: 8,
-		name: "Gold bracelet",
+		name: "Bracelet",
 		category: "Jewelry",
 		price: 899,
 		imgUrl: "/imgs/gold.jpg"

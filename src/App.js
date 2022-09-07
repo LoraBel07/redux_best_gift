@@ -13,7 +13,7 @@ function App() {
         </div>
         
       </div>
-      <div className='cartBox'>
+      <div>
         <Cart/>
       </div>
       

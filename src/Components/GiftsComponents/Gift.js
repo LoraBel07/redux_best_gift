@@ -13,7 +13,7 @@ const Gift = ({gift}) => {
 		<div className="giftBox">
 			<img src={gift.imgUrl} alt="#"/>
 			<h2>{gift.name}</h2>
-			<p>{gift.price}</p>
+			<p>$ {gift.price}</p>
 			<ChangeQuantity quantity={quantity} setQuantity={setQuantity}/>
 			<button onClick={() => {dispatch(addItemToCart({gift, quantity}))}} className="buyBtn"> 
 				{/* Add to Cart 👉🛒  */}
