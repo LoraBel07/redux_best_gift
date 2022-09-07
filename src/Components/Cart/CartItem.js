@@ -1,9 +1,10 @@
 
-const CartItem = () => {
+const CartItem = ({cartItem}) => {
+	console.log(cartItem);
+
 	return(
-	<div className='cartItem'>
-		
-		CART ITEM
+	<div className='cartItem'>		
+		<p> x {cartItem.quantity}</p>
 		
 	</div>
 	)
