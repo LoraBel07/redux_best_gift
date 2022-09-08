@@ -7,10 +7,11 @@ import Login from './Login';
 import Logout from './Logout';
 import MyAccount from './MyAccount';
 
+
 function App() {
 
   const { isLoading } = useAuth0();
-  if (isLoading) return <h1>Loading...</h1>
+  if (isLoading) return <h1>⏲️ Loading...</h1>
   
   return (
     <div className='App'>
@@ -18,17 +19,18 @@ function App() {
         <div>
         <Login/>
         <Logout/>
-        <MyAccount/>
+        <MyAccount/>        
         </div>
         
         <Filters/>
+        
         <div>
           <Gifts/>
-        </div>
-        
+        </div>        
       </div>
+
       <div>
-        <Cart/>
+        <Cart/>        
       </div>
       
     </div>

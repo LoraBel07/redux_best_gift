@@ -14,6 +14,9 @@ body {
   background-repeat: repeat;
   background-size: 30vh;
 }
+h1, h2, h3, h4, h5 {
+  font-family: 'Signika', sans-serif;
+}
 .block {
   background-color: #d8d8ef;
   box-shadow: 10px 10px 20px 0px rgba(2, 23, 126, 0.613);
@@ -25,7 +28,7 @@ body {
   margin-bottom: 15px;
   margin-left: 15px; 
   margin-right: 260px;
-  width: 82%;
+  width: 70%;
 }
 .header {
   display: flex;
@@ -46,8 +49,13 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  flex-wrap: wrap;
-  
+  flex-wrap: wrap;  
+}
+.my {
+  background-color: #ededfb;
+  border: #b7b7f8 1px solid;
+  box-shadow: 10px 10px 20px 0px rgba(2, 23, 126, 0.613);
+  margin-bottom: 20px;
 }
 
 .categoryButton {
@@ -73,28 +81,13 @@ img {
   height: 180px;
   margin: 7px;
 }
-.cartBox {
-  position: fixed;
-  /* left: 70rem;
-  top: 3rem; */
-  top: 3.5px;
-  right: 5px;
-  background-color: #d8d8ef;
-  box-shadow: 10px 10px 20px 0px rgba(2, 23, 126, 0.613);
-  padding: 13px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin: 12px;  
+.userimg {
+  width: 30px;
+  height: 30px;
 }
-.cartBox:hover {
-  position:absolute;
-  background-color: #dedef7;
-}
-.cart {
-  width: 190px;
-  height: auto;
-}
+
+
+
 .categoryButtonSelected {
   background-color: #b7b7f8;
   cursor: pointer;
@@ -127,18 +120,43 @@ img {
   cursor: pointer;
   box-shadow: 10px 10px 20px 0px rgba(2, 23, 126, 0.613);
 }
+
+
+.cartBox {
+  position: fixed;
+  /* left: 70rem;
+  top: 3rem; */
+  top: 3.5px;
+  right: 5px;
+  background-color: #d8d8ef;
+  box-shadow: 10px 10px 20px 0px rgba(2, 23, 126, 0.613);
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 12px; 
+  width: 25%; 
+}
+.cartBox:hover {
+  position:absolute;
+  background-color: #dedef7;
+}
+.cartI {
+  width: 170px;
+  height: auto;
+  margin-left: 25%;
+}
 .cart {
   display: flex;
   justify-content: space-between;
 }
 .cartItem {
   display: flex;
-  justify-content: space-between; 
-  width: 90%;
+  justify-content: space-between;
+  width: 70%;
+  margin-left: 5%; 
 }
-.cartItem p {
-  justify-content: space-around;
-}
+
 .throw {
   justify-content: center;
   margin-top: 10px;

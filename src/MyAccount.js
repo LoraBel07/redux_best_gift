@@ -4,10 +4,10 @@ const MyAccount = () => {
 	const { user, isAuthenticated } = useAuth0();
 	return(
 		isAuthenticated && (
-		<div>
+		<div className="gifts my">
 			<p>{user.nickname}</p>
 			<p>{user.email}</p>
-			<img src={user.picture}/>
+			<img className="userimg" src={user.picture} alt="#"/>
 		</div>)
 	)
 }
