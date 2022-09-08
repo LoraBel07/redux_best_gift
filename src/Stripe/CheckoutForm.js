@@ -23,7 +23,7 @@ export const CheckoutForm = () => {
 				"http://localhost:8080/stripe/charge",
 				{
 				amount: 999,
-				id: id
+				id: id,
 				}
 			);
 	
