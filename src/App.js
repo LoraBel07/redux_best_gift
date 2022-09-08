@@ -3,6 +3,7 @@ import Cart from './Components/Cart/Cart';
 import Filters from './Components/Filters/Filters';
 import Gifts from './Components/GiftsComponents/Gifts';
 import Login from './Login';
+import Logout from './Logout';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div className='block'>
         <div>
         <Login/>
+        <Logout/>
         </div>
         
         <Filters/>
