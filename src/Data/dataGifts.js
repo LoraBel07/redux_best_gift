@@ -8,7 +8,7 @@ const dataGifts = [
 	},
 	{
 		id: 2,
-		name: "Flowers",
+		name: "Tulips",
 		category: "Flowers",
 		price: 19,
 		imgUrl: "/imgs/flowers.jpg"
