@@ -50,7 +50,7 @@ export const CheckoutForm = () => {
 				</form>
 			:
 				<div>
-					<h3> 💳 Your payment was successful! 💸 </h3>
+					<h4> 💳 Your payment was successful! 💸 </h4>
 				</div>
 			}
 

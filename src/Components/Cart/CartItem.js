@@ -6,7 +6,6 @@ import { removeItemFromCart } from "../../redux/cartSlice";
 const CartItem = ({cartItem}) => {
 	const gift = dataGifts.find(item => item.id === cartItem.giftId);
 	const dispatch = useDispatch();
-	console.log(gift)
 	return(
 		<div className='cart'>
 	<div className='cartItem'>
