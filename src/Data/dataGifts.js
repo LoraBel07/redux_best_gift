@@ -56,6 +56,55 @@ const dataGifts = [
 		category: "Jewelry",
 		price: 899,
 		imgUrl: "/imgs/gold.jpg"
+	},
+	{
+		id: 9,
+		name: "Eclairs",
+		category: "Yummy",
+		price: 15,
+		imgUrl: "/imgs/eclairs.jpg"
+	},
+	{
+		id: 10,
+		name: "Notebook",
+		category: "Staitionery",
+		price: 25,
+		imgUrl: "/imgs/notebook.jpg"
+	},
+	{
+		id: 11,
+		name: "Roses",
+		category: "Flowers",
+		price: 29,
+		imgUrl: "/imgs/roses.jpg"
+	},
+	{
+		id: 12,
+		name: "Markers",
+		category: "Staitionery",
+		price: 25,
+		imgUrl: "/imgs/markers.jpg"
+	},
+	{
+		id: 13,
+		name: "Ipad",
+		category: "Devices",
+		price: 799,
+		imgUrl: "/imgs/tablet.jpg"
+	},
+	{
+		id: 14,
+		name: "Pens",
+		category: "Staitionery",
+		price: 14,
+		imgUrl: "/imgs/pens.jpg"
+	},
+	{
+		id: 15,
+		name: "Carnations",
+		category: "Flowers",
+		price: 39,
+		imgUrl: "/imgs/basket.jpg"
 	}
 
 ]
