@@ -17,8 +17,7 @@ export const CheckoutForm = () => {
     if (!error) {
 		console.log("Stripe 23 | token generated!", paymentMethod);
 		try {
-			const { id } = paymentMethod;
-			
+			const { id } = paymentMethod;			
 			const response = await axios.post(
 				"http://localhost:8080/stripe/charge",
 				{
