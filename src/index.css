@@ -15,7 +15,7 @@ body {
 }
 h1, h2, h3, h4, h5 {
   font-family: 'Signika', sans-serif;
-  color: #0a0a4f;
+  color: #3b3b75;
 }
 .block {
   background-color: #d8d8ef;
@@ -59,9 +59,13 @@ h1, h2, h3, h4, h5 {
 }
 
 .categoryButton {
+  display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  width: 75px;
   margin:10px;
   padding:10px;
+  border-radius: 5px;
 }
 
 code {
@@ -89,10 +93,12 @@ img {
 
 
 .categoryButtonSelected {
-  background-color: #b7b7f8;
+  background: linear-gradient(to right, #ccccfa81, #babaf8, #9a9ada, #9a9ada, #babaf8, #ccccfa81);
   cursor: pointer;
+  width: 75px;
   margin:10px;
   padding:10px;
+  color: white;
 }
 .categoryButtonSelected:hover {
   background-color: #efeff8;
