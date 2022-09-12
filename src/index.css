@@ -62,9 +62,9 @@ h1, h2, h3, h4, h5 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 75px;
+  width: 80px;
   margin:10px;
-  padding:10px;
+  padding:8px;
   border-radius: 5px;
 }
 
@@ -90,14 +90,12 @@ img {
   height: 30px;
 }
 
-
-
 .categoryButtonSelected {
   background: linear-gradient(to right, #ccccfa81, #babaf8, #9a9ada, #9a9ada, #babaf8, #ccccfa81);
   cursor: pointer;
-  width: 75px;
+  width: 80px;
   margin:10px;
-  padding:10px;
+  padding:8px;
   color: white;
 }
 .categoryButtonSelected:hover {
