@@ -1,5 +1,16 @@
 # redux_best_gift
 
+Redux-Best-Gift is a web application built with Node and Redux, that uses: 
+* redux-toolkit;  
+* stripe-server,  
+* hooks, 
+* auth0, 
+* shell, 
+* useAuth.
+
+
+It allows users to:
+
 
 Sort items to select a gift
 Select the required number of items
