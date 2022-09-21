@@ -1,6 +1,6 @@
 # redux_best_gift
 
-Redux-Best-Gift is a web application built with Node and Redux, that uses: 
+Redux-Best-Gift is a web application built with NodeJS and Redux, that uses: 
 * redux-toolkit,  
 * stripe-server,  
 * hooks, 
