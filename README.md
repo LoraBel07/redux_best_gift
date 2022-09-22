@@ -15,7 +15,7 @@ It allows users to:
 * Select the required number of items,
 * Add to cart all selected gifts,
 * Check the total purchase amount,
-* Delete something if necessary,
+* Delete something from cart if necessary,
 * Enter the number and parameters of the credit card (test card),
 * Press the "pay" button and wait for a notification of a successful transaction.
 
